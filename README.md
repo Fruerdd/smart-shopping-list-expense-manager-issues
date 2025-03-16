@@ -35,7 +35,8 @@ The **Smart Shopping List & Expense Manager** is a web application designed to h
 
 ## Site Map
 
-[![Site Map](link)](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/blob/d8e1ec6b8e6ea02059841da855920df3ffa3ef70/sitemap.jpg)
+![sitemao](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/blob/main/sitemap.jpg)
+
 
 ## Mockups
 

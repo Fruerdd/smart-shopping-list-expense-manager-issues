@@ -20,7 +20,7 @@ The **Smart Shopping List & Expense Manager** is a web application designed to h
 
 ### **Team Member 1:** Amina 
 - **User Authentication & Profile Management** – Sign up, log in, and manage profiles.
-- **Expense Tracking & Budget Analytics** – Track grocery expenses and generate reports.
+- **Referral & Loyalty System** – Earn rewards for referring friends and accumulating loyalty points.
 - **Dark Mode Toggle** – Customize UI with light and dark mode.
 
 ### **Team Member 2:** Tarik
@@ -31,7 +31,7 @@ The **Smart Shopping List & Expense Manager** is a web application designed to h
 ### **Team Member 3:** Pavel
 - **Admin Management of Markets, Products & Users** – Manage market, product, and user data via an admin dashboard.
 - **Multi-User Sync & Shared Lists** – Sync and manage shared shopping lists.
-- **Referral & Loyalty System** – Earn rewards for referring friends and accumulating loyalty points.
+- **Expense Tracking & Budget Analytics** – Track grocery expenses and generate reports.
 
 ## Site Map
 

@@ -46,7 +46,7 @@ The **Smart Shopping List & Expense Manager** is a web application designed to h
 
 ## Data Source for Markets & Items
 
-Instead of markets being user-managed, the admin will maintain the market and product database. A CSV file (potentially sourced from Kaggle or other datasets) will contain:
+Instead of markets being user-managed, the admin will maintain the market and product database. A CSV file (randomly generated using Mockaroo and/or other AI tools) will contain:
 
 - A list of grocery items
 - Prices of items across different markets

@@ -35,7 +35,8 @@ The **Smart Shopping List & Expense Manager** is a web application designed to h
 
 ## Site Map
 
-[![Site Map](link)](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/blob/d8e1ec6b8e6ea02059841da855920df3ffa3ef70/sitemap.jpg)
+![sitemao](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/blob/main/sitemap.jpg)
+
 
 ## Mockups
 
@@ -45,7 +46,7 @@ The **Smart Shopping List & Expense Manager** is a web application designed to h
 
 ## Data Source for Markets & Items
 
-Instead of markets being user-managed, the admin will maintain the market and product database. A CSV file (potentially sourced from Kaggle or other datasets) will contain:
+Instead of markets being user-managed, the admin will maintain the market and product database. A CSV file (randomly generated using Mockaroo and/or other AI tools) will contain:
 
 - A list of grocery items
 - Prices of items across different markets

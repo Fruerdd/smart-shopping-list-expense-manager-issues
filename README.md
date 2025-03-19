@@ -19,19 +19,19 @@ The **Smart Shopping List & Expense Manager** is a web application designed to h
 ## Team Members & Feature Assignment
 
 ### **Team Member 1:** Amina 
-- **User Authentication & Profile Management** – Sign up, log in, and manage profiles.
-- **Referral & Loyalty System** – Earn rewards for referring friends and accumulating loyalty points.
-- **Dark Mode Toggle** – Customize UI with light and dark mode.
+- **User Authentication & Profile Management** – Sign up, log in, and manage profiles. [Issue #4](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/issues/4)
+- **Referral & Loyalty System** – Earn rewards for referring friends and accumulating loyalty points. [Issue #5](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/issues/5)
+- **Dark Mode Toggle** – Customize UI with light and dark mode. [Issue #6](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/issues/6)
 
 ### **Team Member 2:** Tarik
-- **Shopping List Management & Smart Item Search** – Search for and add items based on availability and pricing.
-- **Price Comparison & Intelligent Store Selection** – Compare prices and get smart store recommendations.
-- **Favorite Products & Stores** – Mark favorites for quick access and personalized recommendations.
+- **Shopping List Management & Smart Item Search** – Search for and add items based on availability and pricing. [Issue #1](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/issues/1)
+- **Price Comparison & Intelligent Store Selection** – Compare prices and get smart store recommendations. [Issue #2](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/issues/2)
+- **Favorite Products & Stores** – Mark favorites for quick access and personalized recommendations. [Issue #3](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/issues/3)
 
 ### **Team Member 3:** Pavel
-- **Admin Management of Markets, Products & Users** – Manage market, product, and user data via an admin dashboard.
-- **Multi-User Sync & Shared Lists** – Sync and manage shared shopping lists.
-- **Expense Tracking & Budget Analytics** – Track grocery expenses and generate reports.
+- **Admin Management of Markets, Products & Users** – Manage market, product, and user data via an admin dashboard. [Issue #7](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/issues/7)
+- **Multi-User Sync & Shared Lists** – Sync and manage shared shopping lists. [Issue #8](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/issues/8)
+- **Expense Tracking & Budget Analytics** – Track grocery expenses and generate reports. [Issue #9](https://github.com/Fruerdd/smart-shopping-list-expense-manager-issues/issues/9)
 
 ## Site Map
 
@@ -43,7 +43,7 @@ The **Smart Shopping List & Expense Manager** is a web application designed to h
 - Visual mockups and wireframes will be designed using Figma.
 - Each feature will have an associated wireframe illustrating its UI/UX.
 - Mockups will be stored in the `mockups/` folder in the repository.
-- https://www.figma.com/design/XnMqWbvwiok3RbDHW1Vm1q/SE-Project?node-id=434-428&t=BUbYqZVWn3xLGJSf-1
+- [View the Figma Design]([https://www.figma.com/file/your-file-link](https://www.figma.com/design/XnMqWbvwiok3RbDHW1Vm1q/SE-Project?node-id=434-428&t=BUbYqZVWn3xLGJSf-1)) 
 
 ## Data Source for Markets & Items
 

@@ -43,6 +43,7 @@ The **Smart Shopping List & Expense Manager** is a web application designed to h
 - Visual mockups and wireframes will be designed using Figma.
 - Each feature will have an associated wireframe illustrating its UI/UX.
 - Mockups will be stored in the `mockups/` folder in the repository.
+- https://www.figma.com/design/XnMqWbvwiok3RbDHW1Vm1q/SE-Project?node-id=434-428&t=BUbYqZVWn3xLGJSf-1
 
 ## Data Source for Markets & Items
 

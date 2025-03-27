@@ -7,7 +7,7 @@ import { serverRoutes } from './app-routing.module';
 const serverConfig: ApplicationConfig = {
   providers: [
     provideServerRendering(),
-    provideServerRouting(serverRoutes)  // Use `serverRoutes` which includes `renderMode: 'server'`
+    provideServerRouting(serverRoutes)
   ]
 };
 

@@ -1,18 +1,27 @@
 import { Routes } from '@angular/router';
 import { ServerRoute, RenderMode } from '@angular/ssr';
 
-// Define your routes as usual
-export const routes: Routes = [
+ export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { 
     path: 'home', 
-    loadChildren: () => import('./features/home/home.module').then(m => m.HomeModule)
+    loadComponent: () => import('./features/home/home.component')
+      .then(m => m.HomeComponent)
+  },
+  {
+    path: 'dashboard', 
+    loadComponent: () => import('./features/dashboard/dashboard.component')
+      .then(m => m.DashboardComponent)
+  },
+  {
+    path: 'user-profile',
+    loadComponent: () => import('./features/user-profile/user-profile.component')
+      .then(m => m.UserProfileComponent)
   },
   { path: '**', redirectTo: '/home' }
 ];
 
-// Generate server-specific routes by filtering out invalid ones
-export const serverRoutes: ServerRoute[] = routes
+ export const serverRoutes: ServerRoute[] = routes
   .filter((route): route is ServerRoute => route.path !== undefined)
   .map(route => ({
     ...route,

@@ -1,43 +1,172 @@
+/* General resets or overrides if needed */
 :host {
-    display: block;
-    padding: 20px;
-    margin-top: 0;
-    background-color: #f5f5f5;  
-    height: 100vh;  
-  }
-  
-.content-wrapper {
-    padding-top: 70px; 
+  display: block;
+  width: 100%;
 }
 
-  .home-container {
-    padding: 20px 0;
-    
-    h1 {
-      margin-top: 0;
-    }
-  
-    .home-buttons {
-      margin-top: 20px;
-      display: flex;
-      gap: 16px;
-  
-      .btn {
-        padding: 10px 20px;
-        border-radius: 4px;
-        text-decoration: none;
-        
-        &.btn-pramary {
-          background-color: #007bff;
-          color: white;
-        }
-        
-        &.btn-secondary {
-          background-color: #6c757d;
-          color: white;
-        }
-      }
-    }
-  }
+.hero {
+  background-color: #14136e;  
+  padding: 20px 0;           
+  min-height: auto;
+}
 
-  
+.hero .row {
+  align-items: center;  
+}
+
+.hero .col-md-6.text-center.mt-4.mt-md-0 {
+  display: flex;             
+  align-items: flex-end;    
+  justify-content: center;  
+  margin-top: 0 !important; 
+}
+
+.hero-title,
+.hero-subtitle {
+  color: #ffffff;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0; 
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  margin: 0; 
+}
+
+.hero-image {
+  max-width: 80%;
+}
+
+.did-you-know {
+  background-color: #fff; /* White page background */
+}
+
+/* The dark box styling */
+.did-you-know .info-box {
+  background-color: #1a2b48; /* Dark navy-like background */
+  border-radius: 12px;       /* Rounded corners */
+  max-width: 700px;          /* Constrain box width */
+  color: #fff;               /* White text inside the box */
+}
+
+/* Heading inside the box */
+.did-you-know .section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;                 /* Remove default margin if desired */
+}
+
+/* Paragraph inside the box */
+.did-you-know .section-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 600px;          /* Keep paragraph narrower for readability */
+  margin: 0 auto;            /* Center the text block */
+}
+
+/* Pink button styling */
+.did-you-know .btn-primary {
+  background-color: #f8c2c2; /* Pink color for button */
+  border: none;              /* Remove default border */
+  color: #000;               /* Dark text for contrast on pink */
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 30px;       /* Rounded button shape */
+}
+
+/* TESTIMONIALS SECTION */
+.testimonials {
+  background-color: #f8c2c2; /* Pink background */
+}
+
+/* Heart icon styling */
+.testimonials .icon-container {
+  font-size: 2rem;
+  color: #fff; /* White heart on pink background */
+}
+
+/* Section Title */
+.testimonials .section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #1a2b48; /* Dark navy text for contrast */
+}
+
+/* Section Text (intro paragraph) */
+.testimonials .section-text {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  color: #1a2b48;
+  line-height: 1.5;
+}
+
+/* Testimonial Card */
+.testimonials .testimonial-card {
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+/* Star Rating */
+.testimonials .star-rating .star {
+  font-size: 1.5rem;
+  color: #ffa500; /* Orange stars */
+}
+
+/* Testimonial Text */
+.testimonials .testimonial-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Author Name */
+.testimonials .testimonial-author {
+  font-weight: 600;
+  color: #555;
+}
+
+
+/* HOW IT WORKS SECTION */
+.how-it-works {
+  background-color: #fff; /* White background */
+}
+
+/* Section Title */
+.how-it-works .section-title {
+  color: #1a2b48;  /* Dark navy text */
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* Steps List */
+.how-it-works .hiw-list {
+  font-size: 2rem; /* doubled from original 1.2rem */
+}
+
+.how-it-works .hiw-list li {
+  margin-bottom: 2rem; /* doubled spacing from original 1.5rem */
+  padding-left: 48px;  /* doubled from original 24px */
+}
+
+.how-it-works .hiw-list li::before {
+  font-size: 2rem;  /* doubled from original 1.4rem */
+}
+
+/* Image Styling */
+.how-it-works .hiw-image {
+  /* Force the image to take up 80% of its parent container's width */
+  width: 60%;
+  max-width: none; /* Disable the default max-width so 80% always applies */
+  margin: 0 auto;  /* Center the image horizontally */
+  display: block;  /* Ensure margin auto centering works */
+  border-radius: 8px; /* Optional: keep or remove based on your design */
+}

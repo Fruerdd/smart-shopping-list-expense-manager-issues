@@ -1,4 +1,3 @@
-/* General resets or overrides if needed */
 :host {
   display: block;
   width: 100%;
@@ -43,62 +42,57 @@
 }
 
 .did-you-know {
-  background-color: #fff; /* White page background */
+  background-color: #fff; 
 }
 
-/* The dark box styling */
+
 .did-you-know .info-box {
-  background-color: #1a2b48; /* Dark navy-like background */
-  border-radius: 12px;       /* Rounded corners */
-  max-width: 700px;          /* Constrain box width */
-  color: #fff;               /* White text inside the box */
+  background-color: #1a2b48; 
+  border-radius: 12px;      
+  max-width: 700px;          
+  color: #fff;               
 }
 
-/* Heading inside the box */
+
 .did-you-know .section-title {
   font-size: 1.8rem;
   font-weight: 700;
-  margin: 0;                 /* Remove default margin if desired */
+  margin: 0;                 
 }
 
-/* Paragraph inside the box */
 .did-you-know .section-text {
   font-size: 1rem;
   line-height: 1.5;
-  max-width: 600px;          /* Keep paragraph narrower for readability */
-  margin: 0 auto;            /* Center the text block */
+  max-width: 600px;          
+  margin: 0 auto;            
 }
 
-/* Pink button styling */
+
 .did-you-know .btn-primary {
-  background-color: #f8c2c2; /* Pink color for button */
-  border: none;              /* Remove default border */
-  color: #000;               /* Dark text for contrast on pink */
+  background-color: #f8c2c2; 
+  border: none;             
+  color: #000;               
   padding: 0.75rem 1.5rem;
   font-size: 1.1rem;
-  border-radius: 30px;       /* Rounded button shape */
+  border-radius: 30px;       
 }
 
-/* TESTIMONIALS SECTION */
 .testimonials {
-  background-color: #f8c2c2; /* Pink background */
+  background-color: #f8c2c2; 
 }
 
-/* Heart icon styling */
 .testimonials .icon-container {
   font-size: 2rem;
-  color: #fff; /* White heart on pink background */
+  color: #fff; 
 }
 
-/* Section Title */
 .testimonials .section-title {
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  color: #1a2b48; /* Dark navy text for contrast */
+  color: #1a2b48; 
 }
 
-/* Section Text (intro paragraph) */
 .testimonials .section-text {
   max-width: 700px;
   margin: 0 auto 2rem auto;
@@ -135,38 +129,34 @@
 }
 
 
-/* HOW IT WORKS SECTION */
 .how-it-works {
-  background-color: #fff; /* White background */
+  background-color: #fff; 
 }
 
-/* Section Title */
 .how-it-works .section-title {
-  color: #1a2b48;  /* Dark navy text */
-  font-size: 1.8rem;
+  color: #1a2b48;  
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
-/* Steps List */
 .how-it-works .hiw-list {
-  font-size: 2rem; /* doubled from original 1.2rem */
+  font-size: 1.8rem; 
+  text-align: center;
 }
 
 .how-it-works .hiw-list li {
-  margin-bottom: 2rem; /* doubled spacing from original 1.5rem */
-  padding-left: 48px;  /* doubled from original 24px */
+  margin-bottom: 1.8rem; 
+  padding-left: 48px;  
 }
 
 .how-it-works .hiw-list li::before {
-  font-size: 2rem;  /* doubled from original 1.4rem */
+  font-size: 1.8rem;  
 }
 
-/* Image Styling */
 .how-it-works .hiw-image {
-  /* Force the image to take up 80% of its parent container's width */
   width: 60%;
-  max-width: none; /* Disable the default max-width so 80% always applies */
-  margin: 0 auto;  /* Center the image horizontally */
-  display: block;  /* Ensure margin auto centering works */
-  border-radius: 8px; /* Optional: keep or remove based on your design */
+  max-width: none; 
+  margin: 0 auto;  
+  display: block;  
+  border-radius: 8px; 
 }

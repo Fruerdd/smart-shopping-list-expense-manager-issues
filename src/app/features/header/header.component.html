@@ -1,0 +1,51 @@
+<header>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-3">
+                <div class="logo d-flex align-items-center">
+                        <img src="logo.png" class="logo" alt="logo">
+                        <span class="company-name">GroceryMate</span>
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-9 col-9 text-end">
+                <div 
+                    class="menu-icon"
+                    *ngIf="isMobileView"
+                    (click)="openMenu()">
+                    <i class="{{menu_icon}}"></i>
+                </div>
+            
+                <div class="desktop_menu" [class.mobile_menu]="menuValue">
+                    <ul>
+                        <li 
+                          (click)="isMobileView ? closeMenu() : activatePage('home')" 
+                          [ngClass]="{'active': activePage === 'home'}"
+                        >Dashboard</li>
+            
+                        <li 
+                          (click)="isMobileView ? closeMenu() : activatePage('profile')" 
+                          [ngClass]="{'active': activePage === 'profile'}"
+                        >My Profile</li>
+            
+                        <li 
+                          (click)="isMobileView ? closeMenu() : activatePage('how-to-use')" 
+                          [ngClass]="{'active': activePage === 'how-to-use'}"
+                        >How to Use</li>
+            
+                        <li 
+                          (click)="isMobileView ? closeMenu() : activatePage('login')" 
+                          [ngClass]="{'active': activePage === 'login'}"
+                        >Log in</li>
+            
+                        <li 
+                          (click)="isMobileView ? closeMenu() : activatePage('sign-in')" 
+                          [ngClass]="{'active': activePage === 'sign-in'}"
+                        >Sign in</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</header>

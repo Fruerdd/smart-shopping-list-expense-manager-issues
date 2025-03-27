@@ -1,6 +1,11 @@
 header {
     padding: 10px;
     background: #14136e;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .logo {
